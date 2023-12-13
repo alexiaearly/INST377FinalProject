@@ -1,0 +1,78 @@
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Job Listings */
+.job-listings-container {
+  height: 500px; /* Increased height */
+  width: 80%;
+  max-width: 700px; /* Reduced width */
+  margin: 20px auto;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+/* Job Component Styles */
+.job {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.job-title {
+  color: #333;
+  font-size: 1.6em;
+}
+
+.job-description,
+.job-tasks p,
+.job-requirements p,
+.job-benefits p {
+  color: #666;
+  line-height: 1.4;
+}
+
+.job-tasks,
+.job-requirements,
+.job-benefits {
+  margin-top: 20px;
+}
+
+.apply-now-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.apply-now-button:hover {
+  background-color: #0056b3;
+}
+/* Quiz Button */
+.quiz-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+}
+
+/* ... Add other styles as needed ... */
